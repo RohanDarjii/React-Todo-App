@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.main_div{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(100, 117, 214);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.center_div{
+    height: 65%;
+    width: 22%;
+    background-color: rgb(64, 93, 173);
+    border-radius: 25px;
+    box-shadow:6px 8px 7px -3px rgb(0, 0, 0);
+}
+h1{
+    color: rgb(64, 93, 173);
+    background-color: rgb(255, 255, 255);
+
+}
+input{
+    width: 225px;
+    height: 32px;
+    border-radius: 15px;
+    outline: none;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+}
+.addbtn{
+    background-color: white;
+    margin-left: 15px;
+    border: none;
+    min-height: 35px;
+    min-width: 35px;
+    border-radius: 20px;
+    font-size: 22px;
+    
+}
+.addbtn:hover{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+ol{
+    margin-top: 10px;
+}
+ol li{
+    text-align: left;
+    margin: 3px 5px 3px 40px;
+    font-size: 30px;
+    font-weight: 500;
+    color: blanchedalmond;
+    align-items: center;
+}
+.closebtn{
+    background-color: white;
+    margin-left: 15px;
+    border: none;
+    min-height: 30px;
+    min-width: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.closebtn:hover{
+    cursor: pointer;
+    background-color: crimson;
+    color: white;
+}
+.lists{
+    display: flex;
+    margin-top: 5px;
+}
